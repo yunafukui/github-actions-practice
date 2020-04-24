@@ -1,0 +1,10 @@
+name: Omuraisu
+
+on: push
+
+jobs:
+  tejun:
+    runs-on: macos-10.15
+    steps:
+      - name: warm_rice
+        run: echo Gohan wo Atatameru

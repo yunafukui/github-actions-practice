@@ -27,5 +27,6 @@ jobs:
         run: bash ./print_hello.sh
 
       # - name: Sample
-      # # "いちごを洗って切る"みたいな
+      # "いちごを洗って切る"みたいな
+      # 並行作業もまとめて書くのがミソ
       # run: echo Hello, World!
