@@ -21,13 +21,9 @@ jobs:
   cook_ketchup_rice:
     runs-on: macos-10.15
     steps:
-      - name: Gohan
-        run: echo Gohan wo Ireru
-
-      - name: Ketchup
-        run: echo Ketchup wo Ireru
-
       - name: itameru
+        run: echo Gohan wo Ireru
+        run: echo Ketchup wo Ireru
         run: echo Iikanji ni Itameru
 
   omelette_rice:
