@@ -6,8 +6,37 @@ jobs:
   shitajunbi:
     runs-on: macos-10.15
     steps:
+      - uses: actions/checkout@v1
+
       - name: warm_rice
         run: echo Gohan wo Atatameru
 
       - name: beat_egg
         run: echo Tamago wo Toku
+
+  cook_omelette:
+    runs-on: macos-10.15
+    steps:
+      - name: bake_egg
+        run: echo Tamago wo Yaku
+
+  cook_ketchup_rice:
+    runs-on: macos-10.15
+    steps:
+      - name: Gohan
+        run: echo Gohan wo Ireru
+
+      - name: Ketchup
+      run: echo Ketchup wo Ireru
+
+      - name: itameru
+      run: echo Iikanji ni Itameru
+
+  omelette_rice:
+    runs-on: macos-10.15
+    steps:
+      - name: egg_on_rice
+        run: echo Tamago wo Gohan ni Noseru
+
+      - name: finish
+        run: bash ./finish.sh
