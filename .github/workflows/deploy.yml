@@ -12,6 +12,12 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
+      - name: Generate Color
+        run: |
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+          brew install imagemagick
+          convert -size 100x100 xc:red ./html/sample.png
+
       # 特定のディレクトリ以下を GitHub Pages に公開するアクションを利用
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
