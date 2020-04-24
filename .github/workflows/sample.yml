@@ -1,0 +1,21 @@
+# Workflow名（好きな名前でOK）
+name: Sample
+
+# 実行するタイミング (github に push があったタイミングで実行する)
+on: push
+
+# 実行する処理の設定
+jobs:
+
+  # 実行する処理の名前
+  sample:
+
+    # 実行する環境（ macOS の 10.15 を利用 ）
+    runs-on: macos-10.15
+
+    # 実行する処理やコマンドの指定
+    steps:
+
+      # Hello, World! を表示する
+      - name: Sample
+        run: echo Hello, World!
