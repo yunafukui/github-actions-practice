@@ -3,8 +3,11 @@ name: Omuraisu
 on: push
 
 jobs:
-  tejun:
+  shitajunbi:
     runs-on: macos-10.15
     steps:
       - name: warm_rice
         run: echo Gohan wo Atatameru
+
+      - name: beat_egg
+        run: echo Tamago wo Toku

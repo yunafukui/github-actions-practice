@@ -1,3 +1,4 @@
+#!/bin/bash
 # Workflow名（好きな名前でOK）
 # "ケーキの作り方"みたいな
 name: Sample
@@ -18,7 +19,7 @@ jobs:
     # 実行する処理やコマンドの指定
     steps:
       # リポジトリからファイルを取得するアクションを利用
-      # - uses: actions/checkout@v1
+      - uses: actions/checkout@v1
 
       # Hello, World! を表示する
       - name: Sample
