@@ -22,9 +22,10 @@ jobs:
     runs-on: macos-10.15
     steps:
       - name: itameru
-        run: echo Gohan wo Ireru
-        run: echo Ketchup wo Ireru
-        run: echo Iikanji ni Itameru
+        run: |
+          echo Gohan wo Ireru
+          echo Ketchup wo Ireru
+          echo Iikanji ni Itameru
 
   omelette_rice:
     runs-on: macos-10.15
