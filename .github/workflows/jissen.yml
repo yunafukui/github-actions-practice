@@ -39,4 +39,4 @@ jobs:
         run: echo Tamago wo Gohan ni Noseru
 
       - name: finish
-        run: bash ./finish.sh
+        run: bash ./print_hello.sh

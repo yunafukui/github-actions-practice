@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo Oishii Omuraisu no Dekiagari!
+echo Oishii Omuraisu no Dekiagari
