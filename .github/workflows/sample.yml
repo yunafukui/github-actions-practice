@@ -1,4 +1,3 @@
-#!/bin/bash
 # Workflow名（好きな名前でOK）
 # "ケーキの作り方"みたいな
 name: Sample
@@ -25,8 +24,7 @@ jobs:
       - name: Sample
         # "オーブンをあたためる"みたいな
         # run: echo Hello, World!
-        # run: bash ./print_hello.sh
-        run: bash sample.yml
+        run: bash ./print_hello.sh
 
       # - name: Sample
       # "いちごを洗って切る"みたいな
