@@ -6,8 +6,6 @@ jobs:
   shitajunbi:
     runs-on: macos-10.15
     steps:
-      - uses: actions/checkout@v1
-
       - name: warm_rice
         run: echo Gohan wo Atatameru
 
@@ -35,8 +33,10 @@ jobs:
   omelette_rice:
     runs-on: macos-10.15
     steps:
+      - uses: actions/checkout@v1
+
       - name: egg_on_rice
         run: echo Tamago wo Gohan ni Noseru
 
       - name: finish
-        run: bash ./print_hello.sh
+        run: bash ./finish.sh
